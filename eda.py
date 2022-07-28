@@ -7,6 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/11wFJH_7WkplztXjmSFjhh8iGy_XdyNmQ
 """
 
+# Web App Liarary
+import streamlit as st  #open-source Python library that makes it easy to create and share beautiful, custom web apps
+
 # EDA Liarary
 import pandas as pd 
 import numpy as np 
@@ -15,8 +18,6 @@ import numpy as np
 import matplotlib.pyplot as plt 
 import seaborn as sns 
 
-# Web App Liarary
-import streamlit as st  #open-source Python library that makes it easy to create and share beautiful, custom web apps
 
 def eda():
 
