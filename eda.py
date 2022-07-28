@@ -15,7 +15,7 @@ import pandas as pd
 import numpy as np 
 
 # Data Viz Liarary
-import matplotlib.pyplot as plt 
+#import matplotlib.pyplot as plt 
 import seaborn as sns 
 
 
@@ -45,9 +45,9 @@ def eda():
 			if st.checkbox("Show Value Counts"):
 				st.write(df.iloc[:,-1].value_counts())
 
-			if st.checkbox("Correlation Plot(Matplotlib)"):
-				plt.matshow(df.corr())
-				st.pyplot()
+			#if st.checkbox("Correlation Plot(Matplotlib)"):
+			#	plt.matshow(df.corr())
+			#	st.pyplot()
 
 			if st.checkbox("Correlation Plot(Seaborn)"):
 				st.write(sns.heatmap(df.corr(),annot=True))
