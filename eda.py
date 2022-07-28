@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/11wFJH_7WkplztXjmSFjhh8iGy_XdyNmQ
 """
 
-pip install streamlit
-
 # EDA Liarary
 import pandas as pd 
 import numpy as np 
@@ -22,13 +20,6 @@ import seaborn as sns
 import streamlit as st  #open-source Python library that makes it easy to create and share beautiful, custom web apps
 
 def eda():
-
-
-	#activities = ["EDA","Plots"]	
-	#choice = st.sidebar.selectbox("Select Activities","EDA")
-
-	#if choice == 'EDA':
-	#	st.subheader("Exploratory Data Analysis")
 
 	data = st.file_uploader("Upload a Dataset", type=["csv", "xlsx"])
 	if data is not None:
