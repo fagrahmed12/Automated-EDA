@@ -12,7 +12,6 @@ import pandas as pd
 import numpy as np 
 
 # Data Viz Liarary
-import matplotlib
 import matplotlib.pyplot as plt 
 import seaborn as sns 
 
