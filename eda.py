@@ -16,7 +16,7 @@ import numpy as np
 
 # Data Viz Liarary
 #import matplotlib.pyplot as plt 
-import seaborn as sns 
+#import seaborn as sns 
 
 
 def eda():
